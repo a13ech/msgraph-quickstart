@@ -1,10 +1,10 @@
 //MSAL configuration
 const msalConfig = {
     auth: {
-        clientId: 'cd426ee2-725d-4c62-82d1-81fdd2b57465',
+        clientId: 'input yours here', // replace with your AAD app client ID
         // comment out if you use a multi-tenant AAD app
-        authority: 'https://login.microsoftonline.com/e23c1b36-3123-4051-8bd8-92498ff6c026',
-        redirectUri: 'http://localhost:8081'
+        authority: 'https://login.microsoftonline.com/input tenant ID here', // replace with your AAD tenant ID
+        redirectUri: 'http://localhost:8081'// replace with your redirect URI
     }
 };
 const msalRequest = { scopes: [] };
